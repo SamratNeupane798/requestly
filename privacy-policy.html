@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Requestly Chrome Extension - Privacy Policy</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        color: #333;
+      }
+      h1 {
+        color: #1a73e8;
+        border-bottom: 2px solid #1a73e8;
+        padding-bottom: 10px;
+      }
+      h2 {
+        color: #5f6368;
+        margin-top: 30px;
+      }
+      .highlight {
+        background-color: #f8f9fa;
+        padding: 15px;
+        border-left: 4px solid #1a73e8;
+        margin: 20px 0;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      .contact {
+        background-color: #e8f0fe;
+        padding: 15px;
+        border-radius: 8px;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Requestly Chrome Extension - Privacy Policy</h1>
+
+    <p><strong>Last updated:</strong> <span id="lastUpdated"></span></p>
+
+    <div class="highlight">
+      <strong>Important:</strong> Requestly does not collect, store, or transmit
+      any personal user data. This extension operates entirely locally within
+      your browser.
+    </div>
+
+    <h2>1. Data Collection</h2>
+    <p>
+      Requestly does not collect any personal information from users. The
+      extension operates without gathering:
+    </p>
+    <ul>
+      <li>Personal identification information (name, email, address)</li>
+      <li>Browsing history or web activity</li>
+      <li>Document content or file information</li>
+      <li>User authentication credentials</li>
+      <li>Location data or device information</li>
+    </ul>
+
+    <h2>2. Local Storage</h2>
+    <p>
+      The extension only stores minimal user preferences locally using Chrome's
+      built-in storage API:
+    </p>
+    <ul>
+      <li>
+        <strong>Extension enabled/disabled setting:</strong> Whether the
+        auto-request feature is active
+      </li>
+      <li>
+        <strong>Custom message text:</strong> User-defined message for access
+        requests (default: "Hi, could you grant me access to this file?
+        Thanks!")
+      </li>
+    </ul>
+    <p>
+      This data remains on your device and is not transmitted to any external
+      servers.
+    </p>
+
+    <h2>3. How Requestly Works</h2>
+    <p>Requestly operates by:</p>
+    <ul>
+      <li>
+        Monitoring Google Docs and Google Drive pages for access-restricted
+        content
+      </li>
+      <li>Automatically detecting "Request access" buttons when they appear</li>
+      <li>Filling in optional message fields with your custom text</li>
+      <li>Clicking request buttons to streamline the access request process</li>
+    </ul>
+    <p>
+      All operations occur locally within your browser without external data
+      transmission.
+    </p>
+
+    <h2>4. Third-Party Services</h2>
+    <p>
+      Requestly does not integrate with any third-party services or external
+      APIs. The extension only interacts with Google Docs and Google Drive
+      websites as necessary for its core functionality.
+    </p>
+
+    <h2>5. Data Security</h2>
+    <p>
+      Since Requestly does not collect or transmit user data, there are no data
+      security concerns. All user preferences are stored locally using Chrome's
+      secure storage mechanisms.
+    </p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>
+      Requestly does not collect any information from users of any age,
+      including children under 13.
+    </p>
+
+    <h2>7. Changes to This Privacy Policy</h2>
+    <p>
+      We may update this privacy policy from time to time. Any changes will be
+      posted on this page with an updated "Last updated" date.
+    </p>
+
+    <div class="contact">
+      <h2>8. Contact Information</h2>
+      <p>
+        If you have any questions about this privacy policy or the Requestly
+        Chrome extension, please contact us at:
+      </p>
+      <p><strong>Email:</strong> [Your contact email here]</p>
+      <p><strong>Extension Version:</strong> 0.1.0</p>
+    </div>
+
+    <hr style="margin-top: 40px; border: none; border-top: 1px solid #ddd" />
+    <p style="text-align: center; color: #666; font-size: 14px">
+      This privacy policy is effective as of the date listed above and applies
+      to the Requestly Chrome extension.
+    </p>
+
+    <script>
+      document.getElementById("lastUpdated").textContent =
+        new Date().toLocaleDateString();
+    </script>
+  </body>
+</html>
